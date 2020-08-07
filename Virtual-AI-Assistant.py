@@ -6,7 +6,6 @@ import webbrowser
 import os
 import time
 import subprocess
-#from ecapture import ecapture as ec
 import wolframalpha
 import json
 import requests
@@ -156,9 +155,6 @@ if __name__=='__main__':
             news = webbrowser.open_new_tab("https://timesofindia.indiatimes.com/home/headlines")
             speak('Here are some headlines from the Times of India,Happy reading')
             time.sleep(6)
-
-        #elif "camera" in statement or "take a photo" in statement:
-            #ec.capture(0,"robo camera","img.jpg")
 
         # it will search for anything on browser
         elif 'search'  in statement:
